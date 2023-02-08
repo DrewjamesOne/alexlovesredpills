@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function displayRandomImage() {
+        var images = [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg",
+          "image4.jpg",
+          "image5.jpg"
+        ];
+
+        var randomImage = images[Math.floor(Math.random() * images.length)];
+        document.getElementById("randomImage").src = randomImage;
+      }
+    </script>
+  </head>
+  <body onload="displayRandomImage()">
+    <img id="randomImage" alt="Random Image">
+  </body>
+</html>
