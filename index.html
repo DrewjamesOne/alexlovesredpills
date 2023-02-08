@@ -2,32 +2,30 @@
 <html>
   <head>
     <style>
-  #randomImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-  }
-</style>
+      #randomImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
 
     <script>
       function displayRandomImage() {
         var folder = "images/";
         var images = [];
         var extension = ".jpg";
-        
+
         // read all images in the "images" folder and store their names in the "images" array
         for (var i = 1; i <= 200; i++) {
           images.push(folder + i + extension);
         }
-         
+
         var randomImage = images[Math.floor(Math.random() * images.length)];
         document.getElementById("randomImage").src = randomImage;
       }
     </script>
   </head>
   <body onload="displayRandomImage()">
-    <img id="randomImage" alt="Random Image" onclick="location.reload()">
+    <img id="randomImage" alt="Random Image">
   </body>
 </html>
