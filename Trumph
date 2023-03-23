@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking News: Donald Trump Arrested</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+css
+Copy code
+    .header {
+        background-color: #f8f9fa;
+        padding: 1rem;
+    }
+
+    .headline {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 1.5rem 0;
+    }
+
+    .article-date {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #6c757d;
+        margin-bottom: 1.5rem;
+    }
+
+    .article-body {
+        line-height: 1.6;
+    }
+
+    .article-image {
+        max-width: 25%;
+        height: auto;
+        margin-bottom: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="text-center">The Daily Fabricator</h1>
+        </div>
+    </header>
+<main class="container">
+    <article>
+        <h2 class="headline">Breaking News: Donald Trump Arrested</h2>
+        <p class="article-date">March 22, 2023</p>
+        <img class="article-image" src="https://cdn.discordapp.com/attachments/1053131966809112626/1088277838169382992/DrewjamesOne_Donalt_Trump_being_escorted_out_of_Trump_Tower_at__956a3202-48a9-4aaa-bcf3-fcf8e92e440f.png" alt="Donald Trump being arrested">
+        <div class="article-body">
+            <p>In a shocking turn of events, former President Donald Trump has been arrested today by federal authorities. Sources close to the situation have confirmed that the arrest is related to ongoing investigations into his business practices and financial dealings.</p>
+
+            <p>While details of the arrest remain shrouded in mystery, law enforcement officials have hinted that they have gathered an overwhelming amount of evidence to support the charges. The former president has been under intense scrutiny for years, with multiple investigations and lawsuits focusing on his financial activities, potential violations of the law, and rumored ties to a secret society of lizard people.</p>
+
+            <p>Trump's legal team, an eclectic alliance of the nation's most outlandish lawyers, an advanced sentient AI, and a council of omniscient interstellar beings, has yet to release an official statement on the matter. However, his supporters have already taken to social media, astral projection, and interdimensional Morse code to express their outrage at the arrest. Many are claiming that the action is a politically motivated conspiracy orchestrated by an enigmatic syndicate of time-manipulating, reality-warping, and cosmic chess-playing global elites, aiming to tarnish the former president's reputation and stifle his intergalactic quest for celestial supremacy.</p>
+
+            <p>Trump's arrest follows a long string of legal challenges and controversies surrounding his time in office and his business career, including allegations of Martian hideouts, reality-altering toupees, and the commandeering of universe-altering cosmic phenomena. As the investigation continues, it remains to be seen what mind-warping, reality-shattering developments will emerge and how they will impact the former president's already kaleidoscopic and otherworldly legacy.</p>
+
+            <p>This story is spiraling at a pace that defies the known laws of physics, and we will update our readers as more information becomes available through psychic osmosis. Stay cosmically intertwined with The Daily Fabricator for the latest news and analysis on this reality-shredding, paradigm-exploding story.</p>
+        </div>
+    </article>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
